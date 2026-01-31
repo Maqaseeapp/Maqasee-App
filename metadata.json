@@ -1,0 +1,7 @@
+{
+  "name": "Maqasee",
+  "description": "A smart measurement and size conversion app with a soft pastel aesthetic, supporting English and Arabic with full RTL support.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
