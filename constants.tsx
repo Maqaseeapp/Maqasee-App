@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 export const COLORS = {
@@ -253,7 +254,7 @@ export const TRANSLATIONS = {
     analyzingImage: "Analyzing style and details...",
     searchingWeb: "Searching the web...",
     checkingFit: "Checking your DNA fit...",
-    heroTitle: "Shop Better by Tracking Your DNA",
+    heroTitle: "Shop Better by Tracking Your Size DNA",
     heroDesc: "Experience smarter, real-time fashion insights with seamless body tracking and empowering you to take control of your style every day.",
     startJourney: "Start Your Journey",
     featuresTitle: "The Future of Shopping",
@@ -499,7 +500,7 @@ export const TRANSLATIONS = {
     analyzingImage: "نحلل الستايل والتفاصيل...",
     searchingWeb: "نبحث في الإنترنت...",
     checkingFit: "نتحقق من ملاءمة مقاسك...",
-    heroTitle: "تسوق بذكاء عبر بصمتك الجسدية",
+    heroTitle: "تسوق بذكاء عبر بصمة مقاسك الجسدية",
     heroDesc: "استمتع برؤى أزياء ذكية ولحظية مع تتبع سلس للجسم وتمكنك من التحكم في أسلوبك كل يوم.",
     startJourney: "ابدأ رحلتك",
     featuresTitle: "مستقبل التسوق",
