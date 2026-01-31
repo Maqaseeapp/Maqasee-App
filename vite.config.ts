@@ -8,12 +8,18 @@ export default defineConfig({
   define: {
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY)
   },
-  server: {
-    port: 3000
-  },
+  root: '.',
   build: {
     outDir: 'dist',
-    sourcemap: true,
-    emptyOutDir: true
+    sourcemap: false,
+    emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: './index.html',
+      },
+    },
+  },
+  server: {
+    port: 3000
   }
 });
