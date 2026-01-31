@@ -1,21 +1,20 @@
-
 import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { LanguageProvider } from './context/LanguageContext';
-import { ToastProvider } from './components/UI';
-import { Landing } from './pages/Landing';
-import { Auth } from './pages/Auth';
-import { Dashboard } from './pages/Dashboard';
-import { ProfileNew } from './pages/ProfileNew';
-import { SizeFinder } from './pages/SizeFinder';
-import { Discover } from './pages/Discover';
-import { Profile } from './pages/Profile';
-import { History } from './pages/History';
-import { Scan } from './pages/Scan';
-import { SizeFriends } from './pages/SizeFriends';
-import { Compare } from './pages/Compare';
-import { Admin } from './pages/Admin';
-import { SnapShop } from './pages/SnapShop';
+import { LanguageProvider } from './context/LanguageContext.tsx';
+import { ToastProvider } from './components/UI.tsx';
+import { Landing } from './pages/Landing.tsx';
+import { Auth } from './pages/Auth.tsx';
+import { Dashboard } from './pages/Dashboard.tsx';
+import { ProfileNew } from './pages/ProfileNew.tsx';
+import { SizeFinder } from './pages/SizeFinder.tsx';
+import { Discover } from './pages/Discover.tsx';
+import { Profile } from './pages/Profile.tsx';
+import { History } from './pages/History.tsx';
+import { Scan } from './pages/Scan.tsx';
+import { SizeFriends } from './pages/SizeFriends.tsx';
+import { Compare } from './pages/Compare.tsx';
+import { Admin } from './pages/Admin.tsx';
+import { SnapShop } from './pages/SnapShop.tsx';
 
 const App: React.FC = () => {
   return (

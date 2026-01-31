@@ -4,33 +4,23 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": true,
+    "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "*": ["*"]
     }
   },
-  "include": [
-    "index.tsx",
-    "App.tsx",
-    "types.ts",
-    "firebase.ts",
-    "constants.tsx",
-    "context/**/*.tsx",
-    "components/**/*.tsx",
-    "pages/**/*.tsx",
-    "services/**/*.ts"
-  ],
+  "include": ["./**/*.ts", "./**/*.tsx", "index.tsx", "App.tsx"],
   "exclude": ["node_modules", "dist"]
 }
